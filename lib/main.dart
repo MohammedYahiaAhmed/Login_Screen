@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:login_desgin/page_home.dart';
 
 void main() {
-  runApp(LoginDesign());
+  runApp(const LoginDesign());
 }
 
 class LoginDesign extends StatelessWidget {
@@ -10,7 +10,7 @@ class LoginDesign extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: PageHome(),
     );
